@@ -253,27 +253,17 @@ img {
   border-radius: 10px;
 }
 
-/* .preco-item:nth-child(1):hover a {
-  color: #a3613b;
-}
-.preco-item:nth-child(2):hover a {
-  color: #7b7d83;
-}
-.preco-item:nth-child(3):hover a {
-  color: #cdcf2f;
-} */
-
 .preco-item:nth-child(1):hover a {
   color: whitesmoke;
   background: #a3613b;
 }
 .preco-item:nth-child(2):hover a {
   color: whitesmoke;
-  background: #7b7d83;
+  background: #b4b7c0;
 }
 .preco-item:nth-child(3):hover a {
   color: whitesmoke;
-  background: #b5b809;
+  background: #cdcf2f;
 }
 
 @media (max-width: 800px) {
