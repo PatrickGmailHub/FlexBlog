@@ -63,7 +63,7 @@ img {
 }
 
 .menu a {
-  color: wheat;
+  color: white;
 }
 
 .menu-logo a {
@@ -81,6 +81,10 @@ img {
   font-size: 1.25em;
   display: block;
   padding: 10px;
+}
+
+.menu nav a:last-child {
+  padding: 10px 0 10px 10px;
 }
 
 .menu nav a:hover {
@@ -190,6 +194,8 @@ img {
   border: 4px solid wheat;
   padding: 20px;
   margin: 10px;
+  /*Para browsers como safari p/ não bugar a quebra*/
+  min-width: 260px; /*ou definir - flex: 1 1 260px*/
 }
 
 .preco-item h2 {
